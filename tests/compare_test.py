@@ -18,3 +18,6 @@ class TestCompare(unittest.TestCase):
 
     def test_compare_int_and_float(self):
         self.assertEqual("both numbers are equal", compare(3, 3.0))
+
+    def test_compare_string_and_float(self):
+        self.assertEqual("both numbers are equal", compare("4", 4))
