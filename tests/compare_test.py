@@ -15,3 +15,6 @@ class TestCompare(unittest.TestCase):
 
     def test_compare_3_3_returns_both_numbers_are_equal(self):
         self.assertEqual("both numbers are equal", compare(3, 3))
+
+    def test_compare_int_and_float(self):
+        self.assertEqual("both numbers are equal", compare(3, 3.0))
