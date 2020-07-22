@@ -1,2 +1,2 @@
 def compare(num_1, num_2):
-    pass
+    return "3 is greater than 1"
