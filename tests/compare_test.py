@@ -12,3 +12,6 @@ class TestCompare(unittest.TestCase):
 
     def test_compare_2_8_returns_2_is_less_than_8(self):
         self.assertEqual("2 is less than 8", compare(2, 8))
+
+    def test_compare_3_3_returns_both_numbers_are_equal(self):
+        self.assertEqual("both numbers are equal", compare(3, 3))
